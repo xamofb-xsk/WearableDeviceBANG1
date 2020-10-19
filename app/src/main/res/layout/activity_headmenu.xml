@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colortext" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:contentDescription="@null"
+            android:layout_width="60dp"
+            android:background="@mipmap/btn_back_normal"
+            />
+
+        <TextView
+            android:id="@+id/menu_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:text="可穿戴设备平台"/>
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="10dp"
+            android:background="@mipmap/add"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
